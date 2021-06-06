@@ -1,0 +1,40 @@
+<div class="card-item col">
+  {% if memorial.redirect %}
+  <a href="{{ memorial.redirect }}" target="_blank">
+  {% else %}
+  <a href="{{ memorial.url | relative_url }}">
+  {% endif %}
+    <div class="card hoverable">
+      <div class="row g-0">
+        {% if memorial.img %}
+        <div class="card-img col-md-6">
+          <img src="{{ memorial.img | relative_url }}" alt="memorial thumbnail">
+        </div>
+        <div class="col-md-6">
+        {% else %}
+        <div class="col-md-12">
+        {% endif %}
+          <div class="card-body">
+            <h3 class="card-title text-lowercase">{{ memorial.title }}</h3>
+            <p class="card-text">{{ memorial.description }}</p>
+            <div class="row ml-1 mr-1 p-0">
+              {% if memorial.github %}
+              <div class="github-icon">
+                <div class="icon" data-toggle="tooltip" title="Code Repository">
+                  <a href="{{ memorial.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
+                </div>
+                {% if memorial.github_stars %}
+                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                  <i class="fas fa-star"></i>
+                  <span id="{{ memorial.github_stars }}-stars"></span>
+                </span>
+                {% endif %}
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
