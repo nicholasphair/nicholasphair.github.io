@@ -72,9 +72,16 @@ blog_name: Nick's Blog  # your blog must have a name for it to show up in the na
 blog_description: a blog has no name
 permalink: /blog/:year/:title/
 
-# Pagination
-pagination:
-  enabled: true
+# Paginate v1.
+paginate: 5
+paginate_path: "/blog/:num/"
+
+# Paginate v2.
+# NB (nphair): Prefer v2. when gh pages supports it.
+#
+# pagination:
+#   enabled: true
+
 
 # Comments
 disqus_shortname: al-folio # put your disqus shortname
@@ -134,10 +141,13 @@ plugins:
   - jekyll-remote-theme
   - jekyll-email-protect
   - jekyll-github-metadata
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
+
+# NP (nphair): Prefer v2. when gh pages supports it.
+#  - jekyll-paginate-v2
 
 # Extras
 github: [metadata]
