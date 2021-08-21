@@ -4,7 +4,7 @@ title: tipc
 description: the tipc compiler
 img:
 redirect: https://github.com/matthewbdwyer/tipc
-importance: 3
+importance: 1
 category: fun
 ---
 
