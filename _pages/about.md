@@ -17,12 +17,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome. I'm Nick and this is my site. I'm a senior software engineer at CCRi
-in Charlottesville, Va. I graduated from Virginia Tech with a degree in
-Computer Engineering and a minor in Computer Science. My tech interests lie all
-over the place. They include, though definitely are not limited to, software
-design and all things programming, computer architectures, operating systems,
-cyber security, hardware/electronics tinkering, and some networking.
+Welcome. My name is Nick and this is my site. I am a first year PhD student in the
+Department of Computer Science at the University of Virginia. Before starting
+at UVA I worked as a senior software engineer at CCRi in Charlottesville, Va.
+My tech interests lie all over the place. They include, though definitely are
+not limited to, software design and all things programming, computer
+architectures, operating systems, cyber security, hardware/electronics
+tinkering, and some networking.
 
 
 I think its important to have interests all over the place. In that regard, I
