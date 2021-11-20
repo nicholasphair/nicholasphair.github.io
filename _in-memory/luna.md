@@ -7,25 +7,25 @@ img: /assets/img/luna/luna_2.JPG
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/luna/luna_3.JPG' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/luna/luna_3.JPG' | relative_url }}" alt="" title="luna counter"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/luna/sheeba_sticks.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/luna/sheeba_sticks.png' | relative_url }}" alt="" title="sheeba sticks"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/luna/luna_1.JPG' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/luna/luna_1.JPG' | relative_url }}" alt="" title="luna bird watching"/>
     </div>
 </div>
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded" src="{{ '/assets/img/luna/crinkle_balls.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded" src="{{ '/assets/img/luna/crinkle_balls.png' | relative_url }}" alt="" title="crinkle balls"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/luna/luna_2.JPG' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/luna/luna_2.JPG' | relative_url }}" alt="" title="luna mischievous"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/luna/string.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/luna/string.png' | relative_url }}" alt="" title="boot laces"/>
     </div>
 </div>
 

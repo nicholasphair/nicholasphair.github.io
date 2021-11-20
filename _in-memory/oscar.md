@@ -9,13 +9,13 @@ img: /assets/img/oscar/oscar_1.JPG
 
 <div class="row align-items-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/oscar_1.JPG' | relative_url }}" alt="" title="oscar 1"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/oscar_1.JPG' | relative_url }}" alt="" title="oscar pool"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/cheese_doodles.png' | relative_url }}" alt="" title="cheese doodles"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/cheese_doodles.png' | relative_url }}" alt="" title="cheez doodles"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/oscar_3.JPG' | relative_url }}" alt="" title="oscar 3"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/oscar_3.JPG' | relative_url }}" alt="" title="oscar begging"/>
     </div>
 </div>
 
@@ -24,10 +24,10 @@ img: /assets/img/oscar/oscar_1.JPG
         <img class="img-fluid rounded" src="{{ '/assets/img/oscar/nilla_wafers.png' | relative_url }}" alt="" title="nilla wafers"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/oscar_2.JPG' | relative_url }}" alt="" title="oscar 2"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/oscar_2.JPG' | relative_url }}" alt="" title="oscar puppy"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/wrapping_paper.png' | relative_url }}" alt="" title="wrappingpaper"/>
+        <img class="img-fluid rounded " src="{{ '/assets/img/oscar/wrapping_paper.png' | relative_url }}" alt="" title="wrapping paper"/>
     </div>
 </div>
 
