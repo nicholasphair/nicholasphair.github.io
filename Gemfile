@@ -5,6 +5,7 @@ group :jekyll_plugins do
     gem 'jekyll-email-protect'
     gem 'jekyll-github-metadata'
     gem 'jekyll-paginate'
+    gem 'jekyll-responsive-image'
     # NB (nphair): Prefer v2. when gh pages supports it.
     # gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'

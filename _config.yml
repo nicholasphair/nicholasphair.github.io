@@ -139,6 +139,7 @@ plugins:
   - jekyll-email-protect
   - jekyll-github-metadata
   - jekyll-paginate
+  - jekyll-responsive-image
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
