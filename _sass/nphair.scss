@@ -1,3 +1,17 @@
+// Colors.
+$uva-orange-color: #E57200 !default;
+$uva-blue-color: #232D4B !default;
+
+:root {
+    --global-theme-color: #{$uva-orange-color};
+    --global-hover-color: #{$uva-orange-color};
+}
+
+html[data-theme='dark'] {
+    --global-theme-color: #{$uva-orange-color};
+    --global-hover-color: #{$uva-orange-color};
+}
+
 footer {
-  text-align: center;
+    text-align: center;
 }
