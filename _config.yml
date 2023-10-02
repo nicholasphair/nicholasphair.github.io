@@ -45,8 +45,8 @@ github_username: nicholasphair # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: nicholasphair # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+scholar_userid: JHs4gtgAAAAJ&hl
+orcid_id: 0000-0002-2614-9802
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -69,15 +69,8 @@ blog_name: Nick's Blog  # your blog must have a name for it to show up in the na
 blog_description: a blog has no name
 permalink: /blog/:year/:title/
 
-# Paginate v1.
-paginate: 5
-paginate_path: "/blog/:num/"
-
-# Paginate v2.
-# NB (nphair): Prefer v2. when gh pages supports it.
-#
-# pagination:
-#   enabled: true
+pagination:
+  enabled: true
 
 
 # Comments
@@ -136,16 +129,22 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-remote-theme
+  - jekyll-archives
+  - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-github-metadata
-  - jekyll-paginate
-  - jekyll-responsive-image
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+    #- jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
 
-# NP (nphair): Prefer v2. when gh pages supports it.
-#  - jekyll-paginate-v2
 
 # Extras
 github: [metadata]
