@@ -6,7 +6,7 @@ description: >
   Inspired by the traditions of Día de Muertos I wanted to honor those family
   and friends - furry and not - who are no longer with us. This page serves as
   an altar so we may never forget them.
-nav: true
+nav: false
 horizontal: false
 ---
 

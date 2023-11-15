@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome. My name is Nick and this is my site. I am a second year PhD student in
+Welcome. My name is Nick and this is my site. I am a third year PhD student in
 the Department of Computer Science at the University of Virginia. I am a member
 of the [LESS lab][4] advised by Professor [Kevin Sullivan][5]. Before starting
 at UVA I worked as a senior software engineer at CCRi in Charlottesville, Va.

@@ -66,6 +66,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # -----------------------------------------------------------------------------
 
 blog_name: Nick's Blog  # your blog must have a name for it to show up in the nav bar
+blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: a blog has no name
 permalink: /blog/:year/:title/
 
@@ -90,7 +91,7 @@ collections:
     output: true
     permalink: /projects/:path/
   in-memory:
-    output: true
+    output: false
     permalink: /in-memory/:path/
 
 news_limit: 5
