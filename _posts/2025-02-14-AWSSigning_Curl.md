@@ -17,7 +17,7 @@ authorization. Client requests, whether it be from a mobile application or
 testing script, need to be signed. Fortunately, the open-source community has
 contributed support for SigV4 in many popular HTTP libraries (e.g., [Python's
 Requests][3], [Dart's Dio][4]). Notably, the command line tool, [`curl`][6],
-has a native support for AWS signing.  
+has native support for AWS signing.  
 
 The curl incantation is tricky enough that I have to google and fuss about it a
 bit to get it right. Here are some common ways of signing your requests with
@@ -35,7 +35,7 @@ curl \
 
 Of course, that approach is [no longer recommended][8], and you should use
 short-lived credentials. With short-lived credentials you'll have to include
-session information with you temporary access and secret key.
+session information with your temporary access and secret key.
 ```bash
 curl \
   --request POST \
@@ -46,10 +46,12 @@ curl \
   "$URL"
 ```
 
-`AWS_ACCESS_KEY`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` are probably
-not in your environment. If you have programatic access (via the CLI) to the
-AWS account the API is in, and your permissions are sufficient, you can use the
-values in cached by the AWS CLI cache after a login. 
+Note, `AWS_ACCESS_KEY`, `AWS_SECRET_ACCESS_KEY`, and `AWS_SESSION_TOKEN` are
+probably not in your environment. You will need to set them.  
+
+If you have programatic access (via the CLI) to the AWS account the API is in,
+and your permissions are sufficient, you can use the values in cached by the
+AWS CLI cache after a login. 
 
 ```bash
 ls -lt ~/.aws/cli/cache
